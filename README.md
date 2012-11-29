@@ -22,10 +22,11 @@ An NSData* object is returned with the line if found, or nil if no more lines we
 Example Code Snippet
 --------------------
 
-NSFileHandle *fileHandle = [NSFileHandle fileHandleForReadingAtPath:@"path/to/my/file"];
+NSFileHandle *fileHandle = [NSFileHandle fileHandleForReadingAtPath:@"path/to/my/file"]; 
+
 NSData *line = [fileHandle readLineWithDelimiter:@"\n"];
 
-For a slightly more complete example, checkout the ReadLineDemo project in this repository.
+// For a slightly more complete example, checkout the ReadLineDemo project in this repository.
 
 Changing Buffer Size
 --------------------
