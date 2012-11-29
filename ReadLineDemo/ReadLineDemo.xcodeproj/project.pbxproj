@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA3CA96B1665CE5D00410B36 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3CA96A1665CE5D00410B36 /* Cocoa.framework */; };
+		AA3CA9751665CE5D00410B36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA3CA9731665CE5D00410B36 /* InfoPlist.strings */; };
+		AA3CA9771665CE5D00410B36 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3CA9761665CE5D00410B36 /* main.m */; };
+		AA3CA97B1665CE5D00410B36 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AA3CA9791665CE5D00410B36 /* Credits.rtf */; };
+		AA3CA97E1665CE5D00410B36 /* ReadLineDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3CA97D1665CE5D00410B36 /* ReadLineDemoAppDelegate.m */; };
+		AA3CA9811665CE5D00410B36 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA3CA97F1665CE5D00410B36 /* MainMenu.xib */; };
+		AA3CA98B1665D0E000410B36 /* NSFileHandle+readLine.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3CA98A1665D0E000410B36 /* NSFileHandle+readLine.m */; };
+		AA3CA98D1665D4EB00410B36 /* SampleFile.txt in Resources */ = {isa = PBXBuildFile; fileRef = AA3CA98C1665D4EA00410B36 /* SampleFile.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA3CA9661665CE5D00410B36 /* ReadLineDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadLineDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3CA96A1665CE5D00410B36 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		AA3CA96D1665CE5D00410B36 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		AA3CA96E1665CE5D00410B36 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AA3CA96F1665CE5D00410B36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA3CA9721665CE5D00410B36 /* ReadLineDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReadLineDemo-Info.plist"; sourceTree = "<group>"; };
+		AA3CA9741665CE5D00410B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA3CA9761665CE5D00410B36 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA3CA9781665CE5D00410B36 /* ReadLineDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReadLineDemo-Prefix.pch"; sourceTree = "<group>"; };
+		AA3CA97A1665CE5D00410B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		AA3CA97C1665CE5D00410B36 /* ReadLineDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReadLineDemoAppDelegate.h; sourceTree = "<group>"; };
+		AA3CA97D1665CE5D00410B36 /* ReadLineDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReadLineDemoAppDelegate.m; sourceTree = "<group>"; };
+		AA3CA9801665CE5D00410B36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AA3CA9891665D0E000410B36 /* NSFileHandle+readLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFileHandle+readLine.h"; path = "../../NSFileHandle+readLine.h"; sourceTree = "<group>"; };
+		AA3CA98A1665D0E000410B36 /* NSFileHandle+readLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFileHandle+readLine.m"; path = "../../NSFileHandle+readLine.m"; sourceTree = "<group>"; };
+		AA3CA98C1665D4EA00410B36 /* SampleFile.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SampleFile.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA3CA9631665CE5D00410B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3CA96B1665CE5D00410B36 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA3CA95B1665CE5D00410B36 = {
+			isa = PBXGroup;
+			children = (
+				AA3CA9701665CE5D00410B36 /* ReadLineDemo */,
+				AA3CA9691665CE5D00410B36 /* Frameworks */,
+				AA3CA9671665CE5D00410B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA3CA9671665CE5D00410B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA3CA9661665CE5D00410B36 /* ReadLineDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA3CA9691665CE5D00410B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3CA96A1665CE5D00410B36 /* Cocoa.framework */,
+				AA3CA96C1665CE5D00410B36 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA3CA96C1665CE5D00410B36 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3CA96D1665CE5D00410B36 /* AppKit.framework */,
+				AA3CA96E1665CE5D00410B36 /* CoreData.framework */,
+				AA3CA96F1665CE5D00410B36 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		AA3CA9701665CE5D00410B36 /* ReadLineDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AA3CA9891665D0E000410B36 /* NSFileHandle+readLine.h */,
+				AA3CA98A1665D0E000410B36 /* NSFileHandle+readLine.m */,
+				AA3CA97C1665CE5D00410B36 /* ReadLineDemoAppDelegate.h */,
+				AA3CA97D1665CE5D00410B36 /* ReadLineDemoAppDelegate.m */,
+				AA3CA98C1665D4EA00410B36 /* SampleFile.txt */,
+				AA3CA97F1665CE5D00410B36 /* MainMenu.xib */,
+				AA3CA9711665CE5D00410B36 /* Supporting Files */,
+			);
+			path = ReadLineDemo;
+			sourceTree = "<group>";
+		};
+		AA3CA9711665CE5D00410B36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA3CA9721665CE5D00410B36 /* ReadLineDemo-Info.plist */,
+				AA3CA9731665CE5D00410B36 /* InfoPlist.strings */,
+				AA3CA9761665CE5D00410B36 /* main.m */,
+				AA3CA9781665CE5D00410B36 /* ReadLineDemo-Prefix.pch */,
+				AA3CA9791665CE5D00410B36 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA3CA9651665CE5D00410B36 /* ReadLineDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA3CA9841665CE5D00410B36 /* Build configuration list for PBXNativeTarget "ReadLineDemo" */;
+			buildPhases = (
+				AA3CA9621665CE5D00410B36 /* Sources */,
+				AA3CA9631665CE5D00410B36 /* Frameworks */,
+				AA3CA9641665CE5D00410B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReadLineDemo;
+			productName = ReadLineDemo;
+			productReference = AA3CA9661665CE5D00410B36 /* ReadLineDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA3CA95D1665CE5D00410B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ReadLineDemo;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ethan Horger";
+			};
+			buildConfigurationList = AA3CA9601665CE5D00410B36 /* Build configuration list for PBXProject "ReadLineDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA3CA95B1665CE5D00410B36;
+			productRefGroup = AA3CA9671665CE5D00410B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA3CA9651665CE5D00410B36 /* ReadLineDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA3CA9641665CE5D00410B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3CA9751665CE5D00410B36 /* InfoPlist.strings in Resources */,
+				AA3CA97B1665CE5D00410B36 /* Credits.rtf in Resources */,
+				AA3CA9811665CE5D00410B36 /* MainMenu.xib in Resources */,
+				AA3CA98D1665D4EB00410B36 /* SampleFile.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA3CA9621665CE5D00410B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA3CA9771665CE5D00410B36 /* main.m in Sources */,
+				AA3CA97E1665CE5D00410B36 /* ReadLineDemoAppDelegate.m in Sources */,
+				AA3CA98B1665D0E000410B36 /* NSFileHandle+readLine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA3CA9731665CE5D00410B36 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3CA9741665CE5D00410B36 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA3CA9791665CE5D00410B36 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3CA97A1665CE5D00410B36 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		AA3CA97F1665CE5D00410B36 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA3CA9801665CE5D00410B36 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA3CA9821665CE5D00410B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AA3CA9831665CE5D00410B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AA3CA9851665CE5D00410B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReadLineDemo/ReadLineDemo-Prefix.pch";
+				INFOPLIST_FILE = "ReadLineDemo/ReadLineDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA3CA9861665CE5D00410B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReadLineDemo/ReadLineDemo-Prefix.pch";
+				INFOPLIST_FILE = "ReadLineDemo/ReadLineDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA3CA9601665CE5D00410B36 /* Build configuration list for PBXProject "ReadLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3CA9821665CE5D00410B36 /* Debug */,
+				AA3CA9831665CE5D00410B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA3CA9841665CE5D00410B36 /* Build configuration list for PBXNativeTarget "ReadLineDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA3CA9851665CE5D00410B36 /* Debug */,
+				AA3CA9861665CE5D00410B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA3CA95D1665CE5D00410B36 /* Project object */;
+}
