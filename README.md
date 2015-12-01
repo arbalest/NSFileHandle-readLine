@@ -6,7 +6,7 @@ A simple Cocoa / Objective-C NSFileHandle category that adds the ability to read
 License
 -------
 
-Licensed under the FreeBSD license.
+Dual-licensed under the FreeBSD license and MIT license (either license may be chosen based on your preference).
 
 Usage
 -----
